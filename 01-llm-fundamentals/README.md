@@ -7,50 +7,45 @@ Understanding the "brain" behind AI agents: what a Large Language Model is, how 
 ## Mindmap
 
 ```mermaid
-mindmap
-  root((LLM Fundamentals))
-    What an LLM is
-      Statistical text model
-      "The brain" of an agent
-      Sophisticated autocomplete
-    How it works
-      Next-token prediction
-      One token at a time
-      Responses stream out
-    Training
-      Pre-training (fill-in-the-blank)
-      Fine-tuning (follow instructions)
-      RLHF (human preferences)
-    Why it enables agents
-      LLM only outputs text
-      Text can request a tool
-      Loop: ask, act, feed back
-      Brain vs body
-    Tokens & context window
-      Token = subword chunk
-      Context = working memory
-      No memory outside window
-      Lost in the middle
-    Tool-calling
-      Framework sends tool schemas
-      LLM emits JSON call
-      Framework runs it, returns result
-      Model proposes, framework disposes
-    Prompting
-      System vs user prompt
-      Context assembly
-      Zero-shot / few-shot / chain-of-thought
-      Prompt injection risk
-    Transformers & attention
-      Attention = what matters
-      Parallel processing
-      Self-attention is O(n squared)
-      Why context is limited
-    Tiny agent loop (project)
-      Tools with schemas
-      Mock LLM = decide step
-      Loop feeds results back
-      Swap in a real LLM
+flowchart LR
+  ROOT([LLM Fundamentals])
+
+  ROOT --> P1[1 · What an LLM is]
+  ROOT --> P2[2 · How it works]
+  ROOT --> P3[3 · Training]
+  ROOT --> P4[4 · Why it enables agents]
+  ROOT --> P5[5 · Tokens & context]
+  ROOT --> P6[6 · Tool-calling]
+  ROOT --> P7[7 · Prompting]
+  ROOT --> P8[8 · Transformers & attention]
+  ROOT --> P9[9 · Tiny agent loop]
+
+  P1 --> P1a[Statistical text model]
+  P1 --> P1b[The brain of an agent]
+
+  P2 --> P2a[Next-token prediction]
+  P2 --> P2b[One token at a time]
+
+  P3 --> P3a[Pre-training]
+  P3 --> P3b[Fine-tuning + RLHF]
+
+  P4 --> P4a[LLM only outputs text]
+  P4 --> P4b[Brain vs body]
+
+  P5 --> P5a[Context = working memory]
+  P5 --> P5b[No memory outside window]
+
+  P6 --> P6a[LLM emits JSON call]
+  P6 --> P6b[Framework runs it]
+
+  P7 --> P7a[System vs user prompt]
+  P7 --> P7b[Few-shot / chain-of-thought]
+
+  P8 --> P8a[Attention = what matters]
+  P8 --> P8b[Why context is limited]
+
+  P9 --> P9a[Tools + mock LLM + loop]
+  P9 --> P9b[Swap in a real LLM]
 ```
 
 ## Notes
