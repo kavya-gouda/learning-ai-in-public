@@ -16,9 +16,9 @@ Each point lives in its own file under [`notes/`](./notes). Check the box as you
 | 4 | Why an LLM enables "agents" | ✅ | [04-why-agents.md](./notes/04-why-agents.md) |
 | 5 | Tokens and the context window | ✅ | [05-tokens-and-context-window.md](./notes/05-tokens-and-context-window.md) |
 | 6 | How tool-calling actually works (JSON under the hood) | ✅ | [06-tool-calling.md](./notes/06-tool-calling.md) |
-| 7 | Prompting and system prompts | 🔲 | _(coming soon)_ |
-| 8 | Transformers and attention (architecture deep dive) | 🔲 | _(coming soon)_ |
-| 9 | Build a tiny agent loop myself | 🔲 | _(coming soon)_ |
+| 7 | Prompting and system prompts | ✅ | [07-prompting-and-system-prompts.md](./notes/07-prompting-and-system-prompts.md) |
+| 8 | Transformers and attention (architecture deep dive) | ✅ | [08-transformers-and-attention.md](./notes/08-transformers-and-attention.md) |
+| 9 | Build a tiny agent loop myself | ✅ | [09-build-a-tiny-agent-loop.md](./notes/09-build-a-tiny-agent-loop.md) · [project](./projects/tiny-agent-loop/) |
 
 ## Projects
 
