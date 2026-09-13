@@ -15,7 +15,7 @@ Each point lives in its own file under [`notes/`](./notes). Check the box as you
 | 3 | How it's trained (pre-training, fine-tuning, RLHF) | ✅ | [03-training.md](./notes/03-training.md) |
 | 4 | Why an LLM enables "agents" | ✅ | [04-why-agents.md](./notes/04-why-agents.md) |
 | 5 | Tokens and the context window | ✅ | [05-tokens-and-context-window.md](./notes/05-tokens-and-context-window.md) |
-| 6 | How tool-calling actually works (JSON under the hood) | 🔲 | _(coming soon)_ |
+| 6 | How tool-calling actually works (JSON under the hood) | ✅ | [06-tool-calling.md](./notes/06-tool-calling.md) |
 | 7 | Prompting and system prompts | 🔲 | _(coming soon)_ |
 | 8 | Transformers and attention (architecture deep dive) | 🔲 | _(coming soon)_ |
 | 9 | Build a tiny agent loop myself | 🔲 | _(coming soon)_ |
