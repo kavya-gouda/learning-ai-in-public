@@ -1,8 +1,57 @@
 # 01 · LLM Fundamentals
 
-**Status:** 🚧 Learning
+**Status:** ✅ Done
 
 Understanding the "brain" behind AI agents: what a Large Language Model is, how it works, and why it enables agents.
+
+## Mindmap
+
+```mermaid
+mindmap
+  root((LLM Fundamentals))
+    What an LLM is
+      Statistical text model
+      "The brain" of an agent
+      Sophisticated autocomplete
+    How it works
+      Next-token prediction
+      One token at a time
+      Responses stream out
+    Training
+      Pre-training (fill-in-the-blank)
+      Fine-tuning (follow instructions)
+      RLHF (human preferences)
+    Why it enables agents
+      LLM only outputs text
+      Text can request a tool
+      Loop: ask, act, feed back
+      Brain vs body
+    Tokens & context window
+      Token = subword chunk
+      Context = working memory
+      No memory outside window
+      Lost in the middle
+    Tool-calling
+      Framework sends tool schemas
+      LLM emits JSON call
+      Framework runs it, returns result
+      Model proposes, framework disposes
+    Prompting
+      System vs user prompt
+      Context assembly
+      Zero-shot / few-shot / chain-of-thought
+      Prompt injection risk
+    Transformers & attention
+      Attention = what matters
+      Parallel processing
+      Self-attention is O(n squared)
+      Why context is limited
+    Tiny agent loop (project)
+      Tools with schemas
+      Mock LLM = decide step
+      Loop feeds results back
+      Swap in a real LLM
+```
 
 ## Notes
 
@@ -22,4 +71,4 @@ Each point lives in its own file under [`notes/`](./notes). Check the box as you
 
 ## Projects
 
-_(none yet — a tiny agent loop is planned)_
+- [tiny-agent-loop](./projects/tiny-agent-loop/) — a minimal, runnable agent (tools, mock LLM, JSON tool-calling, the loop). No API key, no dependencies.

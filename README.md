@@ -10,7 +10,7 @@ Status key: 🔲 Not started · 🚧 Learning · ✅ Done
 
 | # | Topic | Status | Notes | Project |
 |---|-------|--------|-------|---------|
-| 01 | LLM fundamentals | 🚧 | [notes](./01-llm-fundamentals/README.md) | — |
+| 01 | LLM fundamentals | ✅ | [notes](./01-llm-fundamentals/README.md) | [tiny-agent-loop](./01-llm-fundamentals/projects/tiny-agent-loop/) |
 | 02 | Prompting & context | 🔲 | [notes](./02-prompting/README.md) | — |
 | 03 | AI agents & tool calling | 🔲 | [notes](./03-agents/README.md) | — |
 | 04 | RAG (Retrieval-Augmented Generation) | 🔲 | [notes](./04-rag/README.md) | — |
